@@ -13,16 +13,16 @@ import { RiSearchLine } from "react-icons/ri";
 
 export default function Home() {
   return (
-    <div className="min-h-screen w-full flex justify-center items-center overflow-hidden bg-slate-100 font-poppins">
-      <main className="relative bg-slate-400 aspect-[9/16] flex flex-col h-[calc(100vh)]">
-        {/* <main className="relative flex flex-col bg-slate-400 w-full h-[calc(100vh)] max-h-[896px] max-w-[414px]"> */}
-        {/* <main className="relative flex flex-col bg-slate-400 w-full h-[calc(100vh)] max-h-[599px] max-w-[285px]"> */}
+    <div className="min-h-svh w-full flex justify-center items-center overflow-hidden bg-slate-100 font-poppins">
+      <main className="relative bg-slate-400 aspect-[9/16] flex flex-col h-svh">
+        {/* <main className="relative flex flex-col bg-slate-400 w-full h-svh max-h-[896px] max-w-[414px]"> */}
+        {/* <main className="relative flex flex-col bg-slate-400 w-full h-svh max-h-[599px] max-w-[285px]"> */}
         <div className="flex z-10 justify-between p-4 items-center w-full absolute top-0 text-center">
           <IoIosArrowBack className="size-6" />
           <p className="font-medium">Reels</p>
           <FiCamera className="size-6" />
         </div>
-        <div className="flex-1 h-[calc(100vh-72px)]">
+        <div className="flex-1 h-[calc(100svh-72px)]">
           <div className="h-full w-full box-border">
             <div className="mx-auto relative overflow-y-scroll no-scrollbar scroll-snap-y p-0 h-full">
               {/* {[...Array(5)].map((_, i) => ( */}

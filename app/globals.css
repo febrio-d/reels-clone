@@ -27,6 +27,12 @@ body {
 }
 
 @layer utilities {
+  .scroll-snap-y {
+    scroll-snap-type: y mandatory;
+  }
+  .scroll-snap-align-start {
+    scroll-snap-align: start;
+  }
   .no-scrollbar::-webkit-scrollbar {
     display: none;
   }
